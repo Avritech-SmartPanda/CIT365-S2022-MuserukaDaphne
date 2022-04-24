@@ -1,0 +1,16 @@
+C:\Data\1 - BYUI\7 - CIT 365\CIT365-S2022-MuserukaDaphne\MyFirstConsoleApplication\MyFirstConsoleApplication\bin\Debug\net5.0\MyFirstConsoleApplication.exe
+C:\Data\1 - BYUI\7 - CIT 365\CIT365-S2022-MuserukaDaphne\MyFirstConsoleApplication\MyFirstConsoleApplication\bin\Debug\net5.0\MyFirstConsoleApplication.deps.json
+C:\Data\1 - BYUI\7 - CIT 365\CIT365-S2022-MuserukaDaphne\MyFirstConsoleApplication\MyFirstConsoleApplication\bin\Debug\net5.0\MyFirstConsoleApplication.runtimeconfig.json
+C:\Data\1 - BYUI\7 - CIT 365\CIT365-S2022-MuserukaDaphne\MyFirstConsoleApplication\MyFirstConsoleApplication\bin\Debug\net5.0\MyFirstConsoleApplication.runtimeconfig.dev.json
+C:\Data\1 - BYUI\7 - CIT 365\CIT365-S2022-MuserukaDaphne\MyFirstConsoleApplication\MyFirstConsoleApplication\bin\Debug\net5.0\MyFirstConsoleApplication.dll
+C:\Data\1 - BYUI\7 - CIT 365\CIT365-S2022-MuserukaDaphne\MyFirstConsoleApplication\MyFirstConsoleApplication\bin\Debug\net5.0\MyFirstConsoleApplication.pdb
+C:\Data\1 - BYUI\7 - CIT 365\CIT365-S2022-MuserukaDaphne\MyFirstConsoleApplication\MyFirstConsoleApplication\obj\Debug\net5.0\MyFirstConsoleApplication.csproj.AssemblyReference.cache
+C:\Data\1 - BYUI\7 - CIT 365\CIT365-S2022-MuserukaDaphne\MyFirstConsoleApplication\MyFirstConsoleApplication\obj\Debug\net5.0\MyFirstConsoleApplication.GeneratedMSBuildEditorConfig.editorconfig
+C:\Data\1 - BYUI\7 - CIT 365\CIT365-S2022-MuserukaDaphne\MyFirstConsoleApplication\MyFirstConsoleApplication\obj\Debug\net5.0\MyFirstConsoleApplication.AssemblyInfoInputs.cache
+C:\Data\1 - BYUI\7 - CIT 365\CIT365-S2022-MuserukaDaphne\MyFirstConsoleApplication\MyFirstConsoleApplication\obj\Debug\net5.0\MyFirstConsoleApplication.AssemblyInfo.cs
+C:\Data\1 - BYUI\7 - CIT 365\CIT365-S2022-MuserukaDaphne\MyFirstConsoleApplication\MyFirstConsoleApplication\obj\Debug\net5.0\MyFirstConsoleApplication.csproj.CoreCompileInputs.cache
+C:\Data\1 - BYUI\7 - CIT 365\CIT365-S2022-MuserukaDaphne\MyFirstConsoleApplication\MyFirstConsoleApplication\obj\Debug\net5.0\MyFirstConsoleApplication.dll
+C:\Data\1 - BYUI\7 - CIT 365\CIT365-S2022-MuserukaDaphne\MyFirstConsoleApplication\MyFirstConsoleApplication\obj\Debug\net5.0\ref\MyFirstConsoleApplication.dll
+C:\Data\1 - BYUI\7 - CIT 365\CIT365-S2022-MuserukaDaphne\MyFirstConsoleApplication\MyFirstConsoleApplication\obj\Debug\net5.0\MyFirstConsoleApplication.pdb
+C:\Data\1 - BYUI\7 - CIT 365\CIT365-S2022-MuserukaDaphne\MyFirstConsoleApplication\MyFirstConsoleApplication\obj\Debug\net5.0\MyFirstConsoleApplication.genruntimeconfig.cache
+C:\Data\1 - BYUI\7 - CIT 365\CIT365-S2022-MuserukaDaphne\MyFirstConsoleApplication\MyFirstConsoleApplication\obj\Debug\net5.0\refint\MyFirstConsoleApplication.dll

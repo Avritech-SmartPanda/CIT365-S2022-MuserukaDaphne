@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "hXZx+yrWCHqITetjWxlprztBu3wuVvV5eG50SRBWjcjAKWJESiJ49boyi3/YDOY85cbt23tBhWOqisyhs+7J6g==",
+  "success": true,
+  "projectFilePath": "C:\\Data\\1 - BYUI\\7 - CIT 365\\CIT365-S2022-MuserukaDaphne\\MyFirstConsoleApplication\\MyFirstConsoleApplication\\MyFirstConsoleApplication.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Windows Pc\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.16\\microsoft.netcore.app.host.win-x64.5.0.16.nupkg.sha512",
+    "C:\\Users\\Windows Pc\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\5.0.0\\microsoft.aspnetcore.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Windows Pc\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\5.0.0\\microsoft.windowsdesktop.app.ref.5.0.0.nupkg.sha512",
+    "C:\\Users\\Windows Pc\\.nuget\\packages\\microsoft.netcore.app.ref\\5.0.0\\microsoft.netcore.app.ref.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
