@@ -37,7 +37,7 @@ namespace MyFirstConsoleApplication
             Console.WriteLine($"I have never been to {person.location}. I bet it is nice. Press any key to continue...");
 
             // Prompt the user to "Press any key to continue." And wait to proceed until a key is pressed.
-            Console.ReadKey(true);
+            Console.ReadKey();
         }
 
         // The method must allow you to pass in a DateTime value when called.
@@ -54,7 +54,7 @@ namespace MyFirstConsoleApplication
 
             // Prompt the user to "Press any key to continue." And wait to proceed until a key is pressed.
             Console.WriteLine("Press any key to continue.");
-            Console.ReadKey(true);
+            Console.ReadKey();
 
         }
     }
