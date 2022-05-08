@@ -296,17 +296,19 @@
             // 
             this.currentDate.AutoSize = true;
             this.currentDate.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.currentDate.Location = new System.Drawing.Point(404, 9);
+            this.currentDate.Location = new System.Drawing.Point(317, 24);
+            this.currentDate.Margin = new System.Windows.Forms.Padding(3, 0, 20, 0);
             this.currentDate.Name = "currentDate";
             this.currentDate.Size = new System.Drawing.Size(63, 29);
             this.currentDate.TabIndex = 21;
             this.currentDate.Text = "Date";
+            this.currentDate.Click += new System.EventHandler(this.currentDate_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(511, 673);
+            this.ClientSize = new System.Drawing.Size(500, 673);
             this.Controls.Add(this.currentDate);
             this.Controls.Add(this.startButton);
             this.Controls.Add(this.quotient);
