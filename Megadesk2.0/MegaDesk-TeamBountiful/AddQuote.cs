@@ -1,16 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
 using System.Drawing;
-using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
+using System.IO;
 using Newtonsoft.Json;
 
-namespace MegaDesk_Museruka
+namespace MegaDesk_TeamBountiful
 {
-
     public partial class AddQuote : Form
     {
-        public static Dictionary<string, Desk> allQuotes = new Dictionary<string, Desk>();
         public AddQuote()
         {
             InitializeComponent();
@@ -119,15 +122,10 @@ namespace MegaDesk_Museruka
             }
         }
 
-        private void comboBox1_SelectedIndexChanged(object sender, EventArgs e)
-        {
-        }
-
+ 
 
         private void saveBtn_Click(object sender, EventArgs e)
         {
-            //DateTime.Now.ToString("dd MMMM yyyy");
-
             DeskQuote deskQuote = new DeskQuote();
             deskQuote.CustomerName = customerName.Text;
             deskQuote.QuoteDate = DateTime.Now;
@@ -158,34 +156,18 @@ namespace MegaDesk_Museruka
             }
 
             deskQuote.QuoteTotal = deskQuote.CalculateDeskQuoteTotal();
+            GeneralMembers.deskQuote = deskQuote;
             var jsonData = JsonConvert.SerializeObject(deskQuote);
-            string path = @"C:\Data\1 - BYUI\7 - CIT 365\CIT365-S2022-MuserukaDaphne\MegaDesk-Museruka\quotes.json";
-            File.AppendAllText(path, jsonData);
-            totalQuote.Text = deskQuote.QuoteTotal.ToString();
-
-            MainMenu mainForm = (MainMenu)Tag;
-            mainForm.Show();
-            Close();
+            string path = @"C:\Data\1 - BYUI\7 - CIT 365\Megadesk2.0\MegaDesk-TeamBountiful\quotes.json";
+            File.AppendAllText(path, jsonData + Environment.NewLine);
+             
+            DisplayQuote displayQuoteForm = new DisplayQuote();
+            displayQuoteForm.Tag = this;
+            displayQuoteForm.Show(this);
+            this.Hide();
         }
 
-
-
-        private void label7_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void numericUpDown1_ValueChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void radioButton2_CheckedChanged(object sender, EventArgs e)
-        {
-
-        }
-
-
+               
         private void customerName_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (String.IsNullOrEmpty(customerName.Text))
@@ -198,6 +180,7 @@ namespace MegaDesk_Museruka
                 customerName.ForeColor = Color.Green;
             }
         }
+
         private void customerName_TextChanged(object sender, EventArgs e)
         {
             if (String.IsNullOrEmpty(customerName.Text))
@@ -209,17 +192,6 @@ namespace MegaDesk_Museruka
                 nameError.Text = null;
                 customerName.ForeColor = Color.Green;
             }
-        }
-
-
-        private void label7_Click_1(object sender, EventArgs e)
-        {
-
-        }
-
-        private void rushOrder_SelectedIndexChanged(object sender, EventArgs e)
-        {
-
-        }
+        }       
     }
 }

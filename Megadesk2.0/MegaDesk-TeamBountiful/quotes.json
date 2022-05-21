@@ -1,0 +1,6 @@
+{"CustomerName":"Tess Smith","RushDays":14,"QuoteTotal":600.0,"Desk":{"Width":24.0,"Depth":24.0,"NumberOfDrawers":7.0,"SurfaceMaterial":5},"QuoteDate":"2022-05-20T21:13:51.2147824+02:00"}
+{"CustomerName":"Daph Test","RushDays":14,"QuoteTotal":400.0,"Desk":{"Width":24.0,"Depth":12.0,"NumberOfDrawers":0.0,"SurfaceMaterial":2},"QuoteDate":"2022-05-20T21:14:51.5364847+02:00"}
+{"CustomerName":"Tests","RushDays":14,"QuoteTotal":500.0,"Desk":{"Width":24.0,"Depth":25.0,"NumberOfDrawers":0.0,"SurfaceMaterial":3},"QuoteDate":"2022-05-21T02:59:45.2114933+02:00"}
+{"CustomerName":"Mark Anthony","RushDays":14,"QuoteTotal":525.0,"Desk":{"Width":24.0,"Depth":34.0,"NumberOfDrawers":4.0,"SurfaceMaterial":4},"QuoteDate":"2022-05-21T03:27:37.2194979+02:00"}
+{"CustomerName":"Lexi Jojo","RushDays":14,"QuoteTotal":2586.0,"Desk":{"Width":44.0,"Depth":44.0,"NumberOfDrawers":7.0,"SurfaceMaterial":1},"QuoteDate":"2022-05-21T03:29:29.4836207+02:00"}
+{"CustomerName":"Last test","RushDays":14,"QuoteTotal":400.0,"Desk":{"Width":45.0,"Depth":12.0,"NumberOfDrawers":2.0,"SurfaceMaterial":1},"QuoteDate":"2022-05-21T03:34:03.8268886+02:00"}

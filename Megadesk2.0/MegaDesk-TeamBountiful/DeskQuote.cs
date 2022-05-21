@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MegaDesk_Museruka
+namespace MegaDesk_TeamBountiful
 {
     public class DeskQuote
     {
@@ -42,7 +42,7 @@ namespace MegaDesk_Museruka
             {
                 DeskBasePrice = 200 + DeskArea;
             }
-            
+
 
             switch (RushDays)
             {
@@ -99,11 +99,11 @@ namespace MegaDesk_Museruka
             switch (Desk.SurfaceMaterial)
             {
                 case Desk.Material.Laminate:
-                    QuoteTotal = DeskBasePrice + DeskRushOrderPrice + DeskDrawersPrice + 100;                   
+                    QuoteTotal = DeskBasePrice + DeskRushOrderPrice + DeskDrawersPrice + 100;
                     break;
 
                 case Desk.Material.Oak:
-                    QuoteTotal = DeskBasePrice + DeskRushOrderPrice + DeskDrawersPrice + 200;                   
+                    QuoteTotal = DeskBasePrice + DeskRushOrderPrice + DeskDrawersPrice + 200;
                     break;
 
                 case Desk.Material.Rosewood:
@@ -125,4 +125,10 @@ namespace MegaDesk_Museruka
             return QuoteTotal;
         }
     }
+
+
+
+
+
+
 }

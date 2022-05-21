@@ -1,4 +1,4 @@
-﻿namespace MegaDesk_Museruka
+﻿namespace MegaDesk_TeamBountiful
 {
     partial class AddQuote
     {
@@ -121,17 +121,15 @@
             this.numericUpDown1.Name = "numericUpDown1";
             this.numericUpDown1.Size = new System.Drawing.Size(388, 26);
             this.numericUpDown1.TabIndex = 6;
-            this.numericUpDown1.ValueChanged += new System.EventHandler(this.numericUpDown1_ValueChanged);
             // 
             // materialsInput
             // 
-            this.materialsInput.FormattingEnabled = true;          
+            this.materialsInput.FormattingEnabled = true;
             this.materialsInput.Location = new System.Drawing.Point(334, 356);
             this.materialsInput.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.materialsInput.Name = "materialsInput";
             this.materialsInput.Size = new System.Drawing.Size(386, 28);
             this.materialsInput.TabIndex = 10;
-            this.materialsInput.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
             // 
             // label4
             // 
@@ -194,7 +192,6 @@
             this.totalQuote.Name = "totalQuote";
             this.totalQuote.Size = new System.Drawing.Size(386, 40);
             this.totalQuote.TabIndex = 18;
-            this.totalQuote.Click += new System.EventHandler(this.label7_Click);
             // 
             // nameError
             // 
@@ -204,7 +201,6 @@
             this.nameError.Name = "nameError";
             this.nameError.Size = new System.Drawing.Size(381, 27);
             this.nameError.TabIndex = 19;
-            this.nameError.Click += new System.EventHandler(this.label7_Click_1);
             // 
             // widthError
             // 
@@ -226,20 +222,19 @@
             // 
             // rushOrder
             // 
-            this.rushOrder.FormattingEnabled = true;         
+            this.rushOrder.FormattingEnabled = true;
             this.rushOrder.Location = new System.Drawing.Point(335, 424);
             this.rushOrder.Margin = new System.Windows.Forms.Padding(4, 5, 4, 5);
             this.rushOrder.Name = "rushOrder";
             this.rushOrder.Size = new System.Drawing.Size(386, 28);
             this.rushOrder.TabIndex = 22;
-            this.rushOrder.SelectedIndexChanged += new System.EventHandler(this.rushOrder_SelectedIndexChanged);
             // 
             // AddQuote
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(830, 793);
+            this.ClientSize = new System.Drawing.Size(943, 793);
             this.Controls.Add(this.rushOrder);
             this.Controls.Add(this.depthError);
             this.Controls.Add(this.widthError);

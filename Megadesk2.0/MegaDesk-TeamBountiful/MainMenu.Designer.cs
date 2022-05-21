@@ -1,4 +1,4 @@
-﻿namespace MegaDesk_Museruka
+﻿namespace MegaDesk_TeamBountiful
 {
     partial class MainMenu
     {
@@ -93,7 +93,6 @@
             this.mainPicture.Size = new System.Drawing.Size(692, 555);
             this.mainPicture.TabIndex = 4;
             this.mainPicture.TabStop = false;
-            this.mainPicture.Click += new System.EventHandler(this.mainPicture_Click);
             // 
             // MainMenu
             // 
@@ -106,8 +105,7 @@
             this.Controls.Add(this.viewQuotesBtn);
             this.Controls.Add(this.newQuote);
             this.Name = "MainMenu";
-            this.Text = "MegaDesk-Museruka";
-            this.Load += new System.EventHandler(this.MainMenu_Load);
+            this.Text = "MegaDesk-TeamBountiful";
             ((System.ComponentModel.ISupportInitialize)(this.mainPicture)).EndInit();
             this.ResumeLayout(false);
 

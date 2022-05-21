@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MegaDesk_Museruka
+namespace MegaDesk_TeamBountiful
 {
     public class Desk
     {

@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MegaDesk_Museruka
+namespace MegaDesk_TeamBountiful
 {
     public partial class MainMenu : Form
     {
@@ -17,11 +17,7 @@ namespace MegaDesk_Museruka
             InitializeComponent();
         }
 
-        private void MainMenu_Load(object sender, EventArgs e)
-        {
-
-        }   
-
+       
         private void newQuote_Click(object sender, EventArgs e)
         {
             AddQuote quoteForm = new AddQuote();
@@ -50,9 +46,5 @@ namespace MegaDesk_Museruka
             this.Hide();
         }
 
-        private void mainPicture_Click(object sender, EventArgs e)
-        {
-
-        }
     }
 }
